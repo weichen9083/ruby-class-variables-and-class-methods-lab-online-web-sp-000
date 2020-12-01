@@ -33,7 +33,7 @@ class Song
         x = count_hash[genre] +1 
         count_hash[genre] = x 
       else 
-        count_hash[genre] => 1 
+        count_hash[genre] = 1 
       end 
     end 
     
